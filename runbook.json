@@ -1,0 +1,24 @@
+{
+  "issues": [
+    {
+      "issue": "VPN not connecting",
+      "steps": "1. Restart the VPN client. 2. Check your internet connection. 3. Clear VPN cache and reconnect. 4. Try a different VPN server."
+    },
+    {
+      "issue": "Laptop running slow",
+      "steps": "1. Restart the laptop. 2. Close unused applications. 3. Clear temp files by running %temp% in Run dialog. 4. Check for Windows updates."
+    },
+    {
+      "issue": "Cannot access email",
+      "steps": "1. Check internet connection. 2. Clear browser cache. 3. Try a different browser. 4. Re-enter email credentials."
+    },
+    {
+      "issue": "Software not installing",
+      "steps": "1. Run installer as administrator. 2. Disable antivirus temporarily. 3. Check disk space. 4. Download installer again."
+    },
+    {
+      "issue": "Printer not working",
+      "steps": "1. Check printer is powered on and connected. 2. Restart print spooler service. 3. Remove and re-add printer. 4. Update printer drivers."
+    }
+  ]
+}
