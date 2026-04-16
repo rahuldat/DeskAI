@@ -18,3 +18,19 @@ An AI-powered multi-agent helpdesk system that automates L1 and L2 IT support ti
 - dotenv (secret management)
 
 ## Architecture
+
+User submits ticket
+↓
+L1 Agent (runbook-based resolution)
+↓ if unresolved
+L2 Agent (deep technical diagnosis)
+↓ if unresolved
+Auto escalation email with ticket ID
+## Setup
+
+1. Clone the repo
+2. Install dependencies: `pip install streamlit groq python-dotenv`
+3. Create a `.env` file with:
+GROQ_API_KEY=your_groq_key
+GMAIL_APP_PASSWORD=your_gmail_app_password
+4. Run: `streamlit run app.py`
