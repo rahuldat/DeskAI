@@ -19,12 +19,11 @@ An AI-powered multi-agent helpdesk system that automates L1 and L2 IT support ti
 
 ## Architecture
 
-User submits ticket
-↓
+User submits ticket->
 L1 Agent (runbook-based resolution)
-↓ if unresolved
+-> if unresolved
 L2 Agent (deep technical diagnosis)
-↓ if unresolved
+-> if unresolved
 Auto escalation email with ticket ID
 ## Setup
 
